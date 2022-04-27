@@ -1,0 +1,39 @@
+body {
+    background-color: green;
+  }
+
+h1, h5 {
+    text-align: center;
+}
+
+#card-section {
+    margin-top: 80px;
+    background-color: green;
+}
+
+#card-section > img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#request {
+    padding: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    display: none;
+    margin-left: 40%;
+  }
+  
+  #request:hover {
+    cursor: pointer;
+    background-color: #444;
+  }
+  
+  #request:active, #request:focus {
+    outline: none;
+  }
+
